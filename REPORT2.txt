@@ -1,0 +1,37 @@
+Student name: Ayşe Bilge İnce
+Student no: 504121509
+
+Instance no: 2
+
+Programming environment (operating system, programming languagae, IDE, ...):
+I wrote with python 3 language with Pycharm IDE on MacOSX operating system. Also i used numpy and networkx library.
+
+
+
+Description of approach used (max 200 words):
+I tried to implement constraint programming approach. Firstly, i tried to find a node which has max number of neighbour and i gave it first color. After, for each iteration i choose another node which has max number of neighbour for the rest. For this node i’m checking all neihgbours if any of them coloured before. If coloured i delete the color from colors list and i gave a first available color to node. Moreover, i realise how much number of colors i gave to my algorithm, most of the time it uses all of them. So, i give the smallest number as possible. For this instance it is 20.
+
+
+
+
+All relevant parameters and their settings:
+To run my code, python 3.4.0 should’ve been installed also i used numpy library for arithmetic operations and used networkx for Graph operations.
+color_number = 20
+To install numpy write below code to terminal:
+	pip install numpy
+To install networkx
+	pip install networkx
+
+
+Extra Notes (max 100 words):
+
+
+
+
+
+References:
+[1] https://class.coursera.org/optimization-003/lecture/47
+[2] Examples for Discrete Constraint Programming, Belaid MOA UVIC, SHRINC Project
+[3] http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf
+[4] https://github.com/AlfredDU/ColoringMap
+[7] https://www.ics.uci.edu/~welling/teaching/271fall09/CSP271fall09.pdf
